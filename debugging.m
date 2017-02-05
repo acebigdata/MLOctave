@@ -15,4 +15,3 @@ else
 	printf("Sales target not reached.\n");
 
 endif
-

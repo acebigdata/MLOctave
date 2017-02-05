@@ -1,5 +1,4 @@
 
-
 sales = 800
 
 if (sales >= 750);
@@ -15,4 +14,3 @@ else
 	printf("Sales target not reached.\n");
 
 endif
-
