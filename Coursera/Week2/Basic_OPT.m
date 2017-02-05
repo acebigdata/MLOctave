@@ -1,7 +1,7 @@
 %% Change Octave prompt
 PS1('>> ');
 %% Change working directory in windows example:
-cd 'c:/MLOctave'
+%cd 'c:/MLOctave'
 %% Note that it uses normal slashes and does not use escape characters for the empty spaces.
 
 %% elementary operations
