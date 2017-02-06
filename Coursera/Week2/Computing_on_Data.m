@@ -10,13 +10,13 @@ A .* B % element-wise multiplication
 % A .* C  or A * B gives error - wrong dimensions
 A .^ 2 % element-wise square of each element in A
 1./v   % element-wise reciprocal
-log(v)  % functions like this operate element-wise on vecs or matrices 
+log(v)  % functions like this operate element-wise on vecs or matrices
 exp(v)
 abs(v)
 
 -v  % -1*v
 
-v + ones(length(v), 1)  
+v + ones(length(v), 1)
 % v + 1  % same
 
 A'  % matrix transpose
@@ -40,8 +40,8 @@ sum(a)
 prod(a)
 floor(a) % or ceil(a)
 max(rand(3),rand(3))
-max(A,[],1) -  maximum along columns(defaults to columns - max(A,[]))
-max(A,[],2) - maximum along rows
+max(A,[],1)   %maximum along columns(defaults to columns - max(A,[]))
+max(A,[],2)  %maximum along rows
 A = magic(9)
 sum(A,1)
 sum(A,2)
